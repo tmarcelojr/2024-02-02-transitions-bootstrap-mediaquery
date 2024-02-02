@@ -1,0 +1,88 @@
+.boxes {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box1 {
+  background-color: green;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+#box1:hover {
+  background-color: lightskyblue;
+}
+
+#box2 {
+  background-color: yellow;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+
+#box2:hover {
+  font-size: 100px;
+}
+
+#box3 {
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 2s;
+ }
+
+ #box3:hover {
+    width: 100px;
+    height: 100px;
+ }
+ 
+ #box4 {
+    background-color: blue;
+    transition-duration: 0.6s;
+ }
+
+ #box4:hover {
+    transform: translateX(100px);
+ }
+
+ #box5 {
+    background-color: red;
+    transition-duration: 3s;
+ }
+
+ #box5:hover {
+    transform:rotate(360deg);
+ }
+
+ #box6 {
+    color: black;
+    background-color: white;
+    border-color: #4284F4;
+    transition-property: "color", background-color, border-color;
+    transition-duration: 3s;
+ }
+
+ #box6:hover {
+    color: white;
+    background-color: black;
+    border-color: #FFAB40;
+    transform:rotate(360deg);
+ }
+
+ #box7 {
+    color: black;
+    background-color: purple;
+    border-color: #4284F4;
+    /* transition-property: "color", background-color, border-color;
+    transition-duration: 3s; */
+    transition: width 2s linear 2s;
+ }
+
+ #box7:hover {
+    background-color: lightslategray;
+    width: 300px;
+ }
+ 
+ 
+ 
